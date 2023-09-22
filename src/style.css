@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-named-instance: Regular;
+  font-display: swap;
+  font-family: 'Inter Variable';
+  font-style: normal;
+  font-weight: 100 900;
+  src: url(./assets/fonts/inter-variable.woff2) format("woff2")
+}
+
+:root {
+  font-family: 'Inter Variable', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
